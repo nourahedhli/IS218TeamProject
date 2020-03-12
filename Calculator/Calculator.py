@@ -1,6 +1,6 @@
 from Calculator.Subtraction import subtraction
 from Calculator.Addition import addition
-from Calculator.square import square
+from Calculator.Square import square
 
 
 class Calculator:
