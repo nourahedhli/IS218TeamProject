@@ -35,6 +35,7 @@ def random_code_withoutSeed():
     # pprint.pprint(randomData1)
     return randomData1
 
+
 def random_select():
     random.seed(6)
     randomData1 = []
@@ -49,4 +50,22 @@ def random_select():
     #pprint.pprint(rand_value)
     #pprint.pprint(rand_valueList)
     #return rand_value
+    return rand_valueList
+
+
+def random_select_no_seed():
+    random.seed()
+    randomData1 = []
+
+    i = 0
+    rand_list = [10, 20, 30, 40, 50, 60]
+    rand_valueList = random.choices(rand_list, k=4)
+    i += 1
+
+    rand_value = random.choice(rand_list)
+    randomData1.append(rand_value)
+
+    #pprint.pprint(randomData1)
+    #pprint.pprint(rand_valueList)
+
     return rand_valueList
