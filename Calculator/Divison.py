@@ -1,2 +1,6 @@
 def division(a, b):
-    return float(b) / float(a)
+    try:
+        # suppose that number2 is a float
+        return a / b
+    except ZeroDivisionError:
+        return None
