@@ -1,7 +1,7 @@
 from scipy import stats
 
 from statistics import mean
-from Statistics.Variance import population_variance
+from Statistics.variance import population_variance
 import scipy
 
 

@@ -3,8 +3,8 @@ import unittest
 from Statistics.Statistics import Statistics
 
 from Statistics.randomData import *
-from Statistics.Zscores import z_values
-from Statistics.systematic import Systematic
+from Statistics.Zscore import z_values
+from Statistics.SystematicSampling import Systematic
 
 
 class MyTestCase(unittest.TestCase):

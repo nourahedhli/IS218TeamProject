@@ -11,4 +11,4 @@ def mode(data):
 
         Key_max = max(d, key=d.get)
 
-    return Ke_ymax
+    return Key_max

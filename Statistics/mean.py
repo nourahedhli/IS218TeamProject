@@ -1,6 +1,4 @@
-from Calculator.Addition import addition
-from Calculator.Division import division
-from Statistics.randomData import random_code
+from Calculator.Calculator import *
 
 
 def mean(data):
@@ -11,9 +9,3 @@ def mean(data):
     return division(num_values, total)
 
 
-def foo(l):
-    try:
-        l[0]
-        return l
-    except IndexError:
-        return None

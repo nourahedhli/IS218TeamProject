@@ -1,22 +1,22 @@
 from Calculator.Calculator import Calculator
 
-from Statistics.Mean import mean
+from Statistics.mean import mean
 from Statistics.Median import Median
-from Statistics.Mode import mode
+from Statistics.mode import mode
 from Statistics.randomData import random_code
-from Statistics.systematic import Systematic
-from Statistics.standardDeviation import StandardDeviationPopulation
-from Statistics.standardDeviation import StandardDeviationSample
-from Statistics.Quartiles import *
-from Statistics.marginError import MarginError
-from Statistics.Variance import *
+from Statistics.SystematicSampling import Systematic
+from Statistics.StandardDeviation import *
 
-from Statistics.Zscores import *
+from Statistics.Quartiles import *
+from Statistics.MarginOfError import MarginError
+from Statistics.variance import *
+
+from Statistics.Zscore import *
 from Statistics.Correlation import *
-from Statistics.confidence_interval import *
+from Statistics.ConfidenceInterval import *
 from Statistics.sampleSize import *
-from Statistics.skewness import *
-from Statistics.AbsMeanStd import *
+from Statistics.Skewness import *
+from Statistics.MeanAbsDev import *
 
 
 class Statistics(Calculator):

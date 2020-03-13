@@ -1,7 +1,7 @@
-from Calculator.squareRoot import squareRoot
-from Calculator.square import square
+from Calculator.SquareRoot import squareRoot
+from Calculator.Square import square
 
-from Calculator.product import product
+from Calculator.Product import product
 from Calculator.Subtraction import subtraction
 
 

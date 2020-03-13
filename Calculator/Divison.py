@@ -1,3 +1,5 @@
+
+
 def division(a, b):
     try:
         # suppose that number2 is a float

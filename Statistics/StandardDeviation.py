@@ -1,5 +1,5 @@
 import math
-from Statistics.Mean import mean
+from Statistics.mean import mean
 from Calculator.Square import square
 
 

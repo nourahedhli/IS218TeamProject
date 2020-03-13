@@ -19,8 +19,6 @@ class MyTestCase(unittest.TestCase):
         result = self.calculator.subtract(1, 2)
         self.assertEqual(-1, result)
 
-    
-
 
 if __name__ == '__main__':
     unittest.main()

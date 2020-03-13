@@ -1,8 +1,6 @@
 
-
 def typeFunction(a):
-    for i in data:
-        if type(i) == str:
+        if type(a) == str:
             return False
         else:
             return True
