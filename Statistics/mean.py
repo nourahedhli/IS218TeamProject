@@ -9,3 +9,11 @@ def mean(data):
     for num in data:
         total = addition(total, num)
     return division(num_values, total)
+
+
+def foo(l):
+    try:
+        l[0]
+        return l
+    except IndexError:
+        return None
