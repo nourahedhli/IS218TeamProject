@@ -3,7 +3,7 @@ from Calculator.square import square
 
 from Calculator.product import product
 from Calculator.Subtraction import subtraction
-
+f
 
 def average(x):
     summation = sum(x)
