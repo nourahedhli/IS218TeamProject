@@ -1,12 +1,12 @@
-from Statistics.marginError import MarginError
-from Statistics.confidence_interval import mean_confidence_interval
-from Calculator.product import product
-from Calculator.square import square
+from Statistics.MarginOfError import MarginError
+from Statistics.ConfidenceInterval import mean_confidence_interval
+from Calculator.Product import product
+from Calculator.Square import square
 import scipy
 from scipy import stats
-from Statistics.standardDeviation import StandardDeviationSample
+from Statistics.StandardDeviation import StdDevSample
 from Calculator.Division import division
-from Statistics.Zscores import *
+from Statistics.Zscore import *
 
 
 def SampleSize_withoutStd(data):
@@ -42,7 +42,7 @@ def SampleSize_withStd(data):
         List.append(scipy.stats.norm.cdf(Z))
     i = 0
     while i < len(List):
-        x = product(List[i], StandardDeviationSample(data))
+        x = product(List[i], StdDevSample(data))
         y = round(division(x, E[i]))
         List1.append((square(y)))
         i += 1

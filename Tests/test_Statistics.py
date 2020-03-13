@@ -24,43 +24,43 @@ class MyTestCase(unittest.TestCase):
 
     def test_mean_calculator(self):
         mean = self.statistics.mean(self.testData)
-        self.assertEqual(mean, 61.7688)
+        self.assertEqual(mean, 37.41)
 
     def test_median_calculator(self):
         median = self.statistics.median(self.testData)
-        self.assertEqual(median, 43.6865)
+        self.assertEqual(median, 37.41)
 
     def test_mode_calculator(self):
         mode = self.statistics.mode(self.testData)
-        self.assertEqual(mode, 1.045)
+        self.assertEqual(mode, 0.82)
 
     def test_standDevPop_calculator(self):
         standDev = self.statistics.standardDeviationPopulation(self.testData)
-        self.assertEqual(standDev, 9.851279178665072)
+        self.assertEqual(standDev, 36.988761229167785)
 
     def test_standDevSam_calculator(self):
         standDevSam = self.statistics.standardDeviationSample(self.testData)
-        self.assertEqual(standDevSam, 32.83759726221691)
+        self.assertEqual(standDevSam, 73.97752245833557)
 
     def test_VarianceSample_calculator(self):
         VarianceSam = self.statistics.VarianceSample(self.testData)
-        self.assertEqual(VarianceSam, 5.730409868605989)
+        self.assertEqual(VarianceSam, 8.601018687244876)
 
     def test_VariancePop_calculator(self):
         VariancePop = self.statistics.VariancePop(self.testData)
-        self.assertEqual(VariancePop, 3.138674748785715)
+        self.assertEqual(VariancePop, 6.0818386388630685)
 
     def test_Quartile1_calculator(self):
         q1 = self.statistics.Quartile1(self.testData)
-        self.assertEqual(q1, 60.046499999999995)
+        self.assertEqual(q1, 19.115)
 
     def test_Quartile2_calculator(self):
         q2 = self.statistics.Quartile2(self.testData)
-        self.assertEqual(q2, 73.8745)
+        self.assertEqual(q2, 37.41)
 
     def test_Quartile3_calculator(self):
         q3 = self.statistics.Quartile3(self.testData)
-        self.assertEqual(q3, 80.89450000000001)
+        self.assertEqual(q3, 55.705)
 
     def test_z_Values(self, masterResult=None):
         masterResults = []
@@ -102,7 +102,7 @@ class MyTestCase(unittest.TestCase):
 
     def test_skewness(self):
         skew = self.statistics.Skewness(self.testData)
-        self.assertEqual(skew, -1.0958752107177778)
+        self.assertEqual(skew, 2.9705230566342935e-16)
 
     def test_margin_Error(self):
 
@@ -143,19 +143,19 @@ class MyTestCase(unittest.TestCase):
 
     def test_Abs_mean_Dev(self):
         meanADev = self.statistics.MeanAbsStd(self.testData)
-        self.assertEqual(meanADev, 24.03988)
+        self.assertEqual(meanADev, 36.59)
 
     def test_mean_Dev(self):
         meanDev = self.statistics.MeanStd(self.testData)
-        self.assertEqual(meanDev, 1.4210854715202005e-15)
+        self.assertEqual(meanDev, 3.552713678800501e-15)
 
     def test_Population_Correlation(self):
         PopCorre = self.statistics.Population_Correlation(self.testData, self.testData2)
-        self.assertEqual(PopCorre, 0.8337248694096866)
+        self.assertEqual(PopCorre, 0.5631564940516495)
 
     def test_Sample_Correlation(self):
         SamCorre = self.statistics.Sample_Correlation(self.testData, self.testData2)
-        self.assertEqual(SamCorre, 0.8337248694096866)
+        self.assertEqual(SamCorre, 0.5631564940516495)
 
 
 if __name__ == '__main__':

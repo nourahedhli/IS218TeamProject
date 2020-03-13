@@ -2,7 +2,7 @@ from Calculator.Subtraction import subtraction
 from Calculator.Addition import addition
 from Calculator.Square import square
 from Calculator.SquareRoot import squareRoot
-from Calculator.Divison import division
+from Calculator.Division import division
 from Calculator.Product import product
 from HelperFunctions.TypeTesting import typeFunction
 

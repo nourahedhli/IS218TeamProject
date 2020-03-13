@@ -36,11 +36,11 @@ class Statistics(Calculator):
         return self.result
 
     def standardDeviationPopulation(self, data):
-        self.result = StandardDeviationPopulation(data)
+        self.result = StdDevPop(data)
         return self.result
 
     def standardDeviationSample(self, data):
-        self.result = StandardDeviationSample(data)
+        self.result = StdDevSample(data)
         return self.result
 
     def VariancePop(self, data):
