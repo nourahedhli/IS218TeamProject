@@ -24,12 +24,12 @@ class Calculator:
             return self.result
 
     def square(self, a):
-        if typeFunction(a) == True and typeFunction(b) == True:
-            self.result = Square(a)
+        if typeFunction(a) == True :
+            self.result = square(a)
             return self.result
 
     def SquareRoot(self, a):
-        if typeFunction(a) == True and typeFunction(b) == True:
+        if typeFunction(a) == True :
             self.result = squareRoot(a)
             return self.result
 
