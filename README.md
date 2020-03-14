@@ -22,8 +22,7 @@
 
 2. Statistic (Directory )
 ***
-* Statistics
-  *Has all the Stats Methods below 
+* Statistics: Has all the Stats Methods below 
   
 * Methods Stats Function
   * Mean: Call the addition and division method.
