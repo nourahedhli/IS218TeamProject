@@ -60,9 +60,10 @@
 ***
 
 3.Helper Functions (Functions you use for checking types or performing repeated operations)
+***
 * Call Type Method in the Calculator class to test if the “a”  and “b” are not String type before calculating. 
 * Random Number Generator
-
+***
 
 
 
