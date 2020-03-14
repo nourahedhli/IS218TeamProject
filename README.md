@@ -59,15 +59,15 @@
   * Sample Size Formula (known, unknown, Cochran’s): Use Scipy Library, Use the product, square, division, margin error, mean confidence interval, sample standard deviation, and Z-score class methods
 ***
 
-3.Helper Functions (Functions you use for checking types or performing repeated operations)
+3. Helper Functions (Functions you use for checking types or performing repeated operations)
 ***
 * Call Type Method in the Calculator class to test if the “a”  and “b” are not String type before calculating. 
-* Random Number Generator
+* Random Number Generator: Use Build in Random function to generate a random number
 ***
 
 
 
-4.Random Generator function
+4. Random Generator function
 ***
 * Generate a random number without a seed between a range of two numbers - Both Integer and Decimal
 * Generate a random number with a seed between a range of two numbers - Both Integer and Decimal
