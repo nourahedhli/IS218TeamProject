@@ -22,40 +22,40 @@
 
 2. Statistic (Directory )
 ***
-*Statistics
+* Statistics
   *Has all the Stats Methods below 
   
-*Methods Stats Function
-  *Mean: Call the addition and division method.
+* Methods Stats Function
+  * Mean: Call the addition and division method.
   
-   *Median: Call the division method.
+   * Median: Call the division method.
    
-  *Mode: Calculate most common integer
+  * Mode: Calculate most common integer
   
-  *Standard Deviation: Call the mean  and square method
+  * Standard Deviation: Call the mean  and square method
   
-  *Variance: Call the function Standard Deviation and use the Calculator class for the square method.
+  * Variance: Call the function Standard Deviation and use the Calculator class for the square method.
   
-  *Quartiles: Use the Numpy library
+  * Quartiles: Use the Numpy library
   
-  *Skewness: Use the Scipy Library
+  * Skewness: Use the Scipy Library
   
-  *Sample Correlation: Use the calculator class by calling addition , square , subtraction and square root methods 
+  * Sample Correlation: Use the calculator class by calling addition , square , subtraction and square root methods 
   
-  *Population Correlation: Use the calculator class by calling addition , square , subtraction and square root methods 
+  * Population Correlation: Use the calculator class by calling addition , square , subtraction and square root methods 
   
-  *Z-Score: Use Scipy Library, Use mean and population variance methods
+  * Z-Score: Use Scipy Library, Use mean and population variance methods
   
-  *Mean Deviation / Mean Absolute Deviation: Use the Numpy Library
+  * Mean Deviation / Mean Absolute Deviation: Use the Numpy Library
   
-*Population Sampling Function (Statistics)
-  *Simple random sampling: Use as sample data for formulas and tests 
+* Population Sampling Function (Statistics)
+  * Simple random sampling: Use as sample data for formulas and tests 
   
-  *Systematic sampling: Use the Calculator class to call the addition method.
+  * Systematic sampling: Use the Calculator class to call the addition method.
   
-  *Confidence Interval For a Sample: Use the Mean, Z-score and Standard Dev methods
+  * Confidence Interval For a Sample: Use the Mean, Z-score and Standard Dev methods
   
-  *Margin of Error: Use the Z-score, Standard Dev, square root methods
+  * Margin of Error: Use the Z-score, Standard Dev, square root methods
   
-  *Sample Size Formula (known, unknown, Cochran’s): Use Scipy Library, Use the product, square, division, margin error, mean confidence interval, sample standard deviation, and Z-score class methods
-
+  * Sample Size Formula (known, unknown, Cochran’s): Use Scipy Library, Use the product, square, division, margin error, mean confidence interval, sample standard deviation, and Z-score class methods
+***
