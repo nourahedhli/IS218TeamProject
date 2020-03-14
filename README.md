@@ -58,3 +58,23 @@
   
   * Sample Size Formula (known, unknown, Cochran’s): Use Scipy Library, Use the product, square, division, margin error, mean confidence interval, sample standard deviation, and Z-score class methods
 ***
+
+3.Helper Functions (Functions you use for checking types or performing repeated operations)
+* Call Type Method in the Calculator class to test if the “a”  and “b” are not String type before calculating. 
+* Random Number Generator
+
+
+
+
+4.Random Generator function
+***
+* Generate a random number without a seed between a range of two numbers - Both Integer and Decimal
+* Generate a random number with a seed between a range of two numbers - Both Integer and Decimal
+* Generate a list of N random numbers with a seed and between a range of numbers - Both Integer and Decimal
+* Select a random item from a list
+* Set a seed and randomly.select the same value from a list
+* Select N number of items from a list without a seed
+* Select N number of items from a list with a seed
+***
+
+
